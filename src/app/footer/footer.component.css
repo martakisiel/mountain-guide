@@ -12,8 +12,9 @@
     height: fit-content;
     padding-top: 3%;
     display: flex;
-    
-
     justify-content: start;
     align-items: center;
+}
+.proba{
+    background: #000;
 }
