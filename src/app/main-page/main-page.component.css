@@ -1,0 +1,86 @@
+.divBg {
+    position: relative;/*!*/
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+
+}
+/* still div above is transparent div */
+.divBg::before{
+    content:' ';
+    position: absolute;
+
+    background-image: url(/assets/IMG_8362.JPG);
+    background-position:bottom;
+    background-size: cover;
+    background-repeat:no-repeat;
+    background-attachment: fixed;
+
+    top: 0px;
+    right: 0px;
+    bottom: 0px;
+    left: 0px;
+    opacity: 0.2;
+  
+} 
+.textMarta{
+    font-family: 'poppins';
+    font-size: 4vw;
+    padding: 0% 5% 0% 5%;
+    margin: 0%;
+}
+.textPrzewod{
+    font-family: 'poppins';
+    font-size: 5vw;
+    padding: 0% 5% 0% 5%;
+    margin: 0%;
+}
+.justifyCenter{
+    display: flex;
+    justify-content: center;
+}
+.colPrzewod{
+    margin: 0%;
+    padding: 0%;
+
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    /* background-size: 100% auto; */
+    background-position:center;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    display: flex;
+    height: 130vh;
+}
+
+.imgSmall{
+    height: 4vh;
+    width: auto;
+}
+.divBlue{
+    background-color: rgb(6, 93, 117);
+    color: whitesmoke;
+    padding: 3%;
+}
+.divWhite{
+    background-color:white;
+    color: rgb(6, 93, 117);
+}
+.width33{
+    width: 33vw;
+}
+.textOfferHeared{
+    font-size: 3vw;
+    font-family: 'Pacifico'; 
+}
+.textOffer{
+    font-family: 'poppins';
+    font-size: 2vw;
+    padding: 0% 5% 0% 5%;
+    margin: 0%;
+}
