@@ -28,13 +28,13 @@
 } 
 .textMarta{
     font-family: 'poppins';
-    font-size: 4vw;
+    font-size: 2em;
     padding: 0% 5% 0% 5%;
     margin: 0%;
 }
 .textPrzewod{
     font-family: 'poppins';
-    font-size: 5vw;
+    font-size: 4em;
     padding: 0% 5% 0% 5%;
     margin: 0%;
 }
@@ -65,22 +65,32 @@
 .divBlue{
     background-color: rgb(6, 93, 117);
     color: whitesmoke;
-    padding: 3%;
+    padding: 5%;
 }
 .divWhite{
     background-color:white;
     color: rgb(6, 93, 117);
+    padding: 5%;
 }
 .width33{
     width: 33vw;
 }
+.width30{
+    width: 30vw;
+}
 .textOfferHeared{
-    font-size: 3vw;
+    font-size: 3em;
     font-family: 'Pacifico'; 
+}
+.textOfferP{
+    font-family: 'Pacifico';
+    font-size: 3em;
+    padding: 0% 5% 0% 5%;
+    margin: 0%;
 }
 .textOffer{
     font-family: 'poppins';
-    font-size: 2vw;
+    font-size: 1em;
     padding: 0% 5% 0% 5%;
     margin: 0%;
 }

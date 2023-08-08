@@ -1,6 +1,6 @@
 .footerText{
     font-family:'poppins';
-    font-size: 2wh;
+    font-size: 1em;
     color: aliceblue;
     line-height: 1.5;
 }
@@ -10,11 +10,8 @@
     color: whitesmoke;
     width: 100vw;
     height: fit-content;
-    padding-top: 3%;
+    padding-top: 2%;
     display: flex;
     justify-content: start;
     align-items: center;
-}
-.proba{
-    background: #000;
 }
