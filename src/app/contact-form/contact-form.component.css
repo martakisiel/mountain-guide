@@ -16,8 +16,12 @@
 .buttonSub{
     background-color:  rgb(6, 93, 117);
     color: aliceblue;
-    font-size: 1em;
+    font-size: 0.9em;
     border: 0em;
+    width: 100%;
+}
+.w100{
+    width: 100%;
 }
 .divWhite {
     background-color: white;
@@ -31,6 +35,7 @@
 }
 
 .imgCenter {
-    display: block;
-    padding: 5%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }

@@ -1,13 +1,13 @@
 .footerText{
     font-family:'poppins';
     font-size: 1em;
-    color: aliceblue;
+    color: white;
     line-height: 1.5;
 }
 
 .stopka{
     background-color: rgb(6, 93, 117);
-    color: whitesmoke;
+    color: white;
     width: 100vw;
     height: fit-content;
     padding-top: 2%;

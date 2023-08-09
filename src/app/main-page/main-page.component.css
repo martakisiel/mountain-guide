@@ -1,7 +1,7 @@
 .divBg {
     position: relative;/*!*/
     width: 100vw;
-    height: 100vh;
+    height: 30vh;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -13,7 +13,7 @@
     content:' ';
     position: absolute;
 
-    background-image: url(/assets/IMG_8362.JPG);
+    background-image: url(/assets/kos.JPG);
     background-position:bottom;
     background-size: cover;
     background-repeat:no-repeat;
@@ -40,7 +40,8 @@
 }
 .justifyCenter{
     display: flex;
-    justify-content: center;
+    justify-content:right;
+   
 }
 .colPrzewod{
     margin: 0%;
@@ -64,7 +65,7 @@
 }
 .divBlue{
     background-color: rgb(6, 93, 117);
-    color: whitesmoke;
+    color: white;
     padding: 5%;
 }
 .divWhite{
@@ -77,6 +78,7 @@
 }
 .width30{
     width: 30vw;
+    height: 20vh;
 }
 .textOfferHeared{
     font-size: 3em;
@@ -86,11 +88,146 @@
     font-family: 'Pacifico';
     font-size: 3em;
     padding: 0% 5% 0% 5%;
-    margin: 0%;
+    margin: 0% -5% -5% 0%;
+    z-index: 1;
 }
 .textOffer{
     font-family: 'poppins';
     font-size: 1em;
     padding: 0% 5% 0% 5%;
-    margin: 0%;
+    
+}
+.buttonUp {
+    position: fixed;
+    bottom: 0px;
+    right: 0px;
+
+    width: fit-content;
+    height: fit-content;
+    background-color: #315C35;
+    color: white;
+}
+
+
+.imgHeader{
+    height: 20vh;
+    width: auto;
+}
+.imgOfferCenter {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+
+}
+.imgOffer{
+
+    height: 50vh;
+}
+
+
+.heading-frame {
+	display: grid;
+	box-shadow: 0 3px 6px rgba(0,0,0,0.4);
+	grid-template-columns: max-content auto;
+	grid-template-rows: auto max-content;
+	background: #333 url(/assets/zachodnie.JPG) center;
+	background-size: cover;
+	color: rgb(255, 255, 255);
+	width: 400px;
+	height: 300px;
+	padding: 2rem;
+	&:before,
+	&:after {
+		content: "";
+		display: block;
+		width: 100%;
+		height: 100%;
+		border: 1px solid rgb(231, 225, 225);
+	}
+	&:before {
+		grid-row: 1 / 2;
+		border-right: none;
+		border-bottom: none;
+	}	
+	&:after {
+		grid-row: 1 / span 2;
+		border-left: none;
+	}
+    h2 {
+		margin: 1rem 1rem -.5rem 0;
+		font-family: 'Pragati Narrow', sans-serif;
+		font-size: 2rem;
+		max-width: 100%;
+	}
+}
+.heading-frame2 {
+	display: grid;
+	box-shadow: 0 3px 6px rgba(0,0,0,0.4);
+	grid-template-columns: max-content auto;
+	grid-template-rows: auto max-content;
+	background: #333 url(/assets/wysokie.JPG) center;
+	background-size: cover;
+	color: rgb(255, 255, 255);
+	width: 400px;
+	height: 300px;
+	padding: 2rem;
+	&:before,
+	&:after {
+		content: "";
+		display: block;
+		width: 100%;
+		height: 100%;
+		border: 1px solid rgb(231, 225, 225);
+	}
+	&:before {
+		grid-row: 1 / 2;
+		border-right: none;
+		border-bottom: none;
+	}	
+	&:after {
+		grid-row: 1 / span 2;
+		border-left: none;
+	}
+    h2 {
+		margin: 1rem 1rem -.5rem 0;
+		font-family: 'Pragati Narrow', sans-serif;
+		font-size: 2rem;
+		max-width: 100%;
+	}
+}
+.heading-frame3 {
+	display: grid;
+	/* box-shadow: 0 3px 6px rgba(0,0,0,0.4); */
+	grid-template-columns: max-content auto;
+	grid-template-rows: auto max-content;
+	background: white;
+	background-size: cover;
+	color: rgb(6, 93, 117);
+	width: 90vw;
+	height: 90vh;
+	padding: 2rem;
+	&:before,
+	&:after {
+		content: "";
+		display: block;
+		width: 100%;
+		height: 100%;
+		border: 1px solid rgb(6, 93, 117);
+	}
+	&:before {
+		grid-row: 1 / 2;
+		border-right: none;
+		border-bottom: none;
+	}	
+	&:after {
+		grid-row: 1 / span 2;
+		border-left: none;
+	}
+    h1 {
+		margin: 1rem 1rem -.5rem 0;
+		font-family: 'Pragati Narrow', sans-serif;
+		font-size: 2rem;
+		max-width: 100%;
+	}
 }
