@@ -38,4 +38,34 @@
     display: flex;
     align-items: center;
     justify-content: center;
+    padding: 3%;
 }
+
+fieldset {
+    border-width: 5px 5px 5px;
+    border-style:solid;
+    border-color:  rgb(6, 93, 117);
+    padding: 0 20px;
+    filter: drop-shadow(0 1px 1px rgba(grey,0.25));
+    height: fit-content;
+    width: 90vw;
+  }
+  
+  legend {
+    margin: -35px;
+  }
+  
+  h1 {
+    background-color:  white;
+    margin: 0 76px;
+    padding: 0.75em 1.29em 0.5em;
+    border: 3px solid  rgb(6, 93, 117);
+    font-family: 'Josefin Sans', sans-serif;
+    line-height: 0;
+    text-transform: uppercase;
+    letter-spacing: 0.05em;
+    color:  rgb(6, 93, 117);
+    width: fit-content;
+    height: fit-content;
+    
+  }
