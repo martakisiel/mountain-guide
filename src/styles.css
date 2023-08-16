@@ -1,0 +1,13 @@
+body{
+
+ 
+    
+  max-width: 97vw !important; 
+    
+    }
+
+.row>*{
+    max-width: 97vw;
+    margin: 0%;
+    gap: unset;
+}
