@@ -4,8 +4,9 @@
     color: white;
     line-height: 1.5;
 }
-.row{
-    max-width: 95vw;
+.bg{
+    background-color: rgb(6, 93, 117);
+  
 }
 .stopka{
     position: relative;
@@ -15,7 +16,7 @@
     display: flex;
     justify-content: start;
     align-items: center;
-    width: 95vw;
+    width: 98.2vw;
       font-family:'poppins';
     font-size: 1em;
     color: white;
@@ -31,17 +32,19 @@ img{
 .range{
     width: 100%;
     height: auto;
-    margin-bottom: -2%;
+    margin-bottom: -1%;
+    
+}
+.justifyCenter{
+    display: flex;
+    justify-content: center;
 }
 @media (max-width: 416px)  {
     .col-md{
     display: flex;
     justify-content: center;
-    padding: 0px;
+ 
     margin: 0px
     }
-    img {
-        padding: 0%;
-       
-    }   
+     
 }
