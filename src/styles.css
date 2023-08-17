@@ -6,8 +6,6 @@ body{
     
     }
 
-.row>*{
-    max-width: 97vw;
-    margin: 0%;
-    gap: unset;
-}
+
+  row{border:0px;margin-right:0;margin-left:0;max-width:100%; 
+  }

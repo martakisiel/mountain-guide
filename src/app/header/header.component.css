@@ -1,14 +1,34 @@
 img{
-    width: 50%;
-    height: auto;
+    
+    height: 70%;
+   
 }
 .divBg {
-    position: relative;/*!*/
-  
-    padding-top: 2%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+        /* position: relative; */
+    /* z-index: 0; */
+    background-color: rgb(6, 93, 117);
+    /* padding-top: 2%; */
     display: flex;
-    justify-content: center;
-    align-items: center;
+    justify-content:center;
+    align-items:center;
+   width: 98.2vw;
+    height: 40vh;
     
 
+}
+
+@media screen and (max-width: 414px) {
+
+    .divBg {
+        height: 20vh;
+
+            }        img {
+        width: 91vw;
+        height: auto;
+        margin-bottom: -5%;
+    }
 }
